@@ -10,7 +10,7 @@ export default function App(){
   return(
     <View style={styles.container}>
       <Text style={{fontSize:20}}>Hello Sir!</Text>
-      <Button title='For Login Press Here' onPress={()=>ball("Welcome To The Application")} color={'green'} />
+      <Button title='For Login Press Here' onPress={()=>ball("Welcome To The App")} color={'green'} />
       <MasterFile/>
     </View>
   );
